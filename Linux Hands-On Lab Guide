@@ -1,0 +1,110 @@
+
+
+```
+# Linux Hands-On Lab Guide
+
+This hands-on lab guide will walk you through basic tasks in a Linux environment. Follow the step-by-step instructions to practice and familiarize yourself with essential Linux operations.
+
+## Task 1: Spinning up a Linux EC2 Instance in AWS
+📝 **Steps Expected to Run**:
+1. Login to the AWS Management Console.
+2. Navigate to the EC2 service.
+3. Click "Launch Instance" to start the EC2 instance wizard.
+4. Choose an Amazon Machine Image (AMI) for the desired Linux distribution.
+5. Select an instance type and configure the instance details.
+6. Configure storage, network settings, and security groups.
+7. Review the instance details and click "Launch".
+8. Select or create a key pair for SSH access to the instance.
+9. Launch the instance.
+
+## Task 2: Logging in to the Linux Server
+📝 **Steps Expected to Run**:
+1. Open a terminal or SSH client.
+2. Change directory to the location where the private key file is stored.
+3. Run the SSH command to connect to the EC2 instance:
+   ```
+   ssh -i private_key.pem username@public_dns
+   ```
+   Replace "private_key.pem" with the path to your private key file and "username" with the appropriate username for the Linux distribution.
+   Replace "public_dns" with the public DNS name or IP address of the EC2 instance.
+
+## Task 3: Creating Directories
+📝 **Steps Expected to Run**:
+1. To create a directory, use the following command:
+   ```
+   mkdir directory_name
+   ```
+   Replace "directory_name" with the desired name for the directory.
+
+## Task 4: Switching Between Directories
+📝 **Steps Expected to Run**:
+1. To change to a different directory, use the following command:
+   ```
+   cd directory_name
+   ```
+   Replace "directory_name" with the name of the directory you want to navigate to.
+
+## Task 5: Creating and Editing Files in Linux
+📝 **Steps Expected to Run**:
+1. To create a new file, use the following command:
+   ```
+   touch file_name
+   ```
+   Replace "file_name" with the desired name for the file.
+2. To edit an existing file, use a text editor such as nano, vim, or emacs:
+   ```
+   vi file_name
+   ```
+   Replace "file_name" with the name of the file you want to edit.
+
+## Task 6: Switching to the Root User
+📝 **Steps Expected to Run**:
+1. To switch to the root user, use the following command:
+   ```
+   sudo su -
+   ```
+   Enter the password for the current user if prompted.
+
+## Task 7: Validating Task Completion
+📝 **Steps Expected to Run**:
+1. To validate if a task was executed correctly, follow these steps:
+   - For directory creation, use the `ls` command to check if the directory exists.
+   - For file creation, use the `ls` command to check if the file exists.
+   - For file editing, open the file using a text editor and verify the changes.
+   - For switching to the root user, check if the command prompt changes to `root@hostname` or if you have root privileges.
+
+## Task 8: Modifying File Permissions
+📝 **Steps Expected to Run**:
+1. To modify file permissions, use the `chmod` command followed by the desired permission settings and the file name:
+   ```
+   chmod permissions file_name
+   ```
+   Replace "permissions" with the
+
+ appropriate permission settings such as "u+r" (add read permission for the user), "g-w" (remove write permission for the group), or "o+x" (add execute permission for others).
+   Replace "file_name" with the name of the file you want to modify.
+
+## Task 9: Viewing File Contents
+📝 **Steps Expected to Run**:
+1. To view the contents of a file, use the `cat` command followed by the file name:
+   ```
+   cat file_name
+   ```
+   Replace "file_name" with the name of the file you want to view.
+2. The contents of the file will be displayed in the terminal.
+
+## Task 10: Navigating File System Hierarchy
+📝 **Steps Expected to Run**:
+1. To navigate to the parent directory, use the following command:
+   ```
+   cd ..
+   ```
+2. To navigate to the home directory, use the following command:
+   ```
+   cd ~
+   ```
+3. To navigate to the root directory, use the following command:
+   ```
+   cd /
+   ```
+4. Use the `pwd` command to verify the current directory after navigating.
