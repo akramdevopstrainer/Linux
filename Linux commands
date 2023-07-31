@@ -1,0 +1,102 @@
+📂 File Operations:
+- `ls`: Lists all files and directories in the present working directory.
+- `cd`: Changes the directory.
+- `pwd`: Displays the present working directory.
+- `cat`: Displays or creates a file and joins two files.
+- `touch`: Creates or modifies a file.
+- `rm`: Deletes a file.
+- `cp`: Copies files from source to destination.
+- `mv`: Moves files from source to destination.
+- `find`: Finds a file or directory by name starting from the root.
+- `file`: Determines the file type.
+- `less`: Views file content page by page.
+- `head`: Views the first ten lines of a file.
+- `tail`: Views the last ten lines of a file.
+- `lsof`: Shows which files are opened by which process.
+- `du`: Shows the size of each directory.
+- `fdisk`: Disk partition manipulation command.
+
+📁 Directory Operations:
+- `mkdir`: Creates a new directory in the present working directory.
+- `rmdir`: Deletes a directory.
+- `cp -r`: Copies directories recursively.
+- `mv`: Renames directories.
+- `find`: Finds a directory starting from root.
+
+🔄 Process Operations:
+- `ps`: Displays currently active processes.
+- `top`: Displays all running processes.
+- `kill`: Kills a process with a given PID.
+- `pkill`: Kills a process with a given name.
+- `bg`: Resumes suspended jobs without bringing them to foreground.
+- `fg`: Brings jobs to the foreground.
+- `renice`: Changes the priority of a running process.
+
+🔒 File Permissions:
+- `chmod`: Changes the permissions of a file.
+- `chown`: Changes file owner.
+- `chgrp`: Changes group owner.
+
+🔗 Networking:
+- `ping`: Pings a host and outputs results.
+- `whois`: Gets whois information for a domain.
+- `dig`: Gets DNS information for a domain.
+- `netstat`: Displays various network-related information.
+- `ifconfig`: Displays IP addresses of all network interfaces.
+- `ssh`: Remote login into a host as a user.
+- `scp`: Transfers files between hosts over SSH.
+- `wget`: Downloads files from the web.
+- `curl`: Sends a request to a URL and returns the response.
+- `traceroute`: Prints the route that a packet takes to reach a domain.
+- `ss`: Investigates sockets, an alternative to netstat.
+- `nmap`: Network exploration tool and security scanner.
+
+🗃️ Archives and Compression:
+- `tar`: Creates, extracts tar archives.
+- `gzip`: Compresses and decompresses files.
+- `zip`: Creates and extracts zip archives.
+
+📜 Text Processing:
+- `grep`: Searches for patterns in files.
+- `echo`: Prints text.
+- `sed`: Replaces strings in files.
+- `diff`: Compares two files and shows differences.
+- `wc`: Counts lines, words, and characters in a file.
+- `awk`: A versatile programming language for working on files.
+- `cut`: Cuts out specific fields in a file using a delimiter.
+
+💾 Disk Usage:
+- `df`: Shows disk usage.
+- `du`: Shows directory space usage.
+
+📊 System Info:
+- `date`: Shows the current date and time.
+- `uptime`: Shows current uptime.
+- `w`: Displays who is online.
+- `uname`: Shows kernel information.
+
+📦 Package Installations:
+- `sudo apt-get`: Commands for package management.
+
+📜 Shell Scripting:
+- Basic commands used in bash scripts.
+
+🌐 Version Control (Git commands):
+- Basic commands for Git version control.
+
+🔧 Environment Variables:
+- Manipulating environment variables in the shell.
+
+⏰ Job Scheduling (Cron Jobs):
+- Scheduling and managing cron jobs.
+
+📦 Package Installations (using pip):
+- Installing Python packages using pip.
+
+📊 System Monitoring and Performance:
+- Various commands to monitor system performance.
+
+🔍 Search and Find:
+- Commands to search for files and locate binaries.
+
+⚠️ **Note**: Always exercise caution when using advanced commands or commands with potential system impacts.
